@@ -16,13 +16,13 @@
   cursor: pointer;
 color: var(--orange);
 }
+.fixed{
+  position: fixed;
+  right: 2rem;
+  z-index: 99;
+}
 @media screen  and (max-width: 768px) {
 
-  .fixed{
-    position: fixed;
-    right: 2rem;
-    z-index: 99;
-  }
   .header-menu{
     flex-direction: column;
     background-color: var(--appColor);

@@ -13,7 +13,8 @@ const Header = () => {
   return (
     <div className="Header">
       <img src={logo} alt="" className='logo' />
-{(menuOpend === false && mobile === true)? (
+{(menuOpend === false && mobile === true)? 
+(
 <div
 onClick={() => {
   setMenuOpend(true)
@@ -29,7 +30,7 @@ src={bars} alt=""
     <ul
     onClick={() => {
       setMenuOpend(false)}}
-    className='header-menu fixed'>
+    className='header-menu '>
       {/* <li onClick={() => setMenuOpend(false)} ><Link>Home</Link></li>
       <li onClick={() => setMenuOpend(false)} >Programs</li>
       <li onClick={() => setMenuOpend(false)} >Why us</li>
